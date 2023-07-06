@@ -12,4 +12,4 @@
 ### 2. Category
 ![category1](https://github.com/cdayeon/Kurly-App/assets/119835857/164bea5c-631f-42ef-93cc-191f53efa53f)
 
-* Ca
+* Category 내에는 
