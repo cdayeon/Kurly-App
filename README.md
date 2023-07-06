@@ -12,4 +12,4 @@
 ### 2. Category
 ![category1](https://github.com/cdayeon/Kurly-App/assets/119835857/164bea5c-631f-42ef-93cc-191f53efa53f)
 
-* Category 내에는 6개의 list를 넣고, 각각의 list를 누르면 list의 종류가 나오도록 구현
+* Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 list의 종류가 나오도록 구현
