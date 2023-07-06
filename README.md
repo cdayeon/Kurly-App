@@ -10,7 +10,7 @@
 * Home 내의 '컬리추천', '신상품', '베스트', '알뜰쇼핑', '특가/혜택'은 각각 마켓컬리의 페이지로 이동하도록 링크 연결
 ------
 ### 2. Category
-![category1](https://github.com/cdayeon/Kurly-App/assets/119835857/164bea5c-631f-42ef-93cc-191f53efa53f)
+![category1](https://github.com/cdayeon/Kurly-App/assets/119835857/164bea5c-631f-42ef-93cc-191f53efa53f) <br>
 ![category2](https://github.com/cdayeon/Kurly-App/assets/119835857/7205d9ee-9f69-4b42-88f1-551435d5f4fa)
 
 * Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 list의 종류가 나오도록 구현
