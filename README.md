@@ -17,13 +17,19 @@
 <br>
 <br>
 ![캡처1](https://github.com/cdayeon/Kurly-App/assets/119835857/63a3ee44-2d8b-49a9-818b-97791d150481)
-
+<br>
+<br>
 * Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 계속해서 또 다른 list들이 나오도록 구현
-
-
+<br>
+<br>
 ![캡처2](https://github.com/cdayeon/Kurly-App/assets/119835857/39c5687e-859f-4c45-8e2d-00d8928a158e)
 <br>
 <br>
-![캡처3](https://github.com/cdayeon/Kurly-App/assets/119835857/2927214f-a2c1-476b-8735-7833b463b318)
-
-* 최종적으로 마지막 list를 누르면 '장바구니 담기'버튼이 나타나고, 해당 버튼을 누르면 장바구니 페이지에 음식이 담긴다.
+* 최종적으로 마지막 list를 누르면 **장바구니 담기**버튼이 나타나고, 해당 버튼을 누르면 장바구니 페이지에 음식이 담긴다.
+------
+### 3. 장바구니
+![캡처4](https://github.com/cdayeon/Kurly-App/assets/119835857/f7eb441b-f762-43a2-8bd4-51933125eac6)
+<br>
+<br>
+* 장바구니에 아무것도 담겨있지 않으면 **장바구니가 비어있습니다**라는 멘트가 보인다.
+* 카테고리에서 **장바구니 담기**버튼을 통해 음식을 담으면 장바구니에 음식의 이름과 가격이 나타난다.
