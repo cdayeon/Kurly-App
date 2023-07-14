@@ -20,6 +20,10 @@
 
 * Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 계속해서 또 다른 list들이 나오도록 구현
 
+
 ![캡처2](https://github.com/cdayeon/Kurly-App/assets/119835857/39c5687e-859f-4c45-8e2d-00d8928a158e)
 <br>
 <br>
+![캡처3](https://github.com/cdayeon/Kurly-App/assets/119835857/2927214f-a2c1-476b-8735-7833b463b318)
+
+* 최종적으로 마지막 list를 누르면 '장바구니 담기'버튼이 나타나고, 해당 버튼을 누르면 장바구니 페이지에 음식이 담긴다.
