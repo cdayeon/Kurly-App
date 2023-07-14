@@ -14,5 +14,12 @@
 <br>
 <br>
 ![category2](https://github.com/cdayeon/Kurly-App/assets/119835857/7205d9ee-9f69-4b42-88f1-551435d5f4fa)
+<br>
+<br>
+![캡처1](https://github.com/cdayeon/Kurly-App/assets/119835857/63a3ee44-2d8b-49a9-818b-97791d150481)
 
-* Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 또 다른 list가 나오도록 구현
+* Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 계속해서 또 다른 list들이 나오도록 구현
+
+![캡처2](https://github.com/cdayeon/Kurly-App/assets/119835857/39c5687e-859f-4c45-8e2d-00d8928a158e)
+<br>
+<br>
