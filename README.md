@@ -15,4 +15,4 @@
 <br>
 ![category2](https://github.com/cdayeon/Kurly-App/assets/119835857/7205d9ee-9f69-4b42-88f1-551435d5f4fa)
 
-* Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 list의 종류가 나오도록 구현
+* Category 내에는 6개의 list를 만들고, 각각의 list를 누르면 또 다른 list가 나오도록 구현
