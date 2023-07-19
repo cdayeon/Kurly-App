@@ -28,7 +28,7 @@
 ### 3. 장바구니
 ![캡처4](https://github.com/cdayeon/Kurly-App/assets/119835857/f7eb441b-f762-43a2-8bd4-51933125eac6)
 <br>
-<img width="514" alt="스크린샷 2023-07-19 오후 11 44 46" src="https://github.com/cdayeon/Kurly-App/assets/119835857/2290e522-637a-4293-b217-fc030c4efdc1">
+<img width="443" alt="스크린샷 2023-07-19 오후 11 45 47" src="https://github.com/cdayeon/Kurly-App/assets/119835857/0024302b-e66d-4780-8948-e88f207faba1">
 
 * 장바구니에 아무것도 담겨있지 않으면 **장바구니가 비어있습니다**라는 멘트가 보인다.
 * 카테고리에서 **장바구니 담기**버튼을 통해 음식을 담으면 장바구니에 음식의 이름과 가격이 나타난다.
