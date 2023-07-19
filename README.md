@@ -4,14 +4,12 @@
 ### 디플로이한 주소 : https://cdayeon.github.io/Kurly-App
 ------
 ### 1. Home
-<br>
 ![kurly_main](https://github.com/cdayeon/Kurly-App/assets/119835857/cd1172ca-31df-45b7-a373-14ea234c9261)
 
 * header : 각각 홈, 장바구니, 카테고리, 검색창, 계정 페이지로 이동하도록 구현하였다.
 * Home 내의 **컬리추천, 신상품, 베스트, 알뜰쇼핑, 특가/혜택**은 각각 마켓컬리의 해당 페이지로 이동하도록 링크를 연결하였다.
 ------
 ### 2. Category
-<br>
 ![category1](https://github.com/cdayeon/Kurly-App/assets/119835857/164bea5c-631f-42ef-93cc-191f53efa53f) 
 <br>
 ![category2](https://github.com/cdayeon/Kurly-App/assets/119835857/7205d9ee-9f69-4b42-88f1-551435d5f4fa)
@@ -27,7 +25,6 @@
 * 최종적으로 마지막 list를 누르면 **장바구니 담기**버튼이 나타나고, 버튼을 누르면 장바구니에 list가 담긴다.
 ------
 ### 3. 장바구니
-<br>
 ![캡처4](https://github.com/cdayeon/Kurly-App/assets/119835857/f7eb441b-f762-43a2-8bd4-51933125eac6)
 <br>
 
