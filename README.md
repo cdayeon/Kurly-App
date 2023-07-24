@@ -16,7 +16,7 @@
 <br>
 ![캡처1](https://github.com/cdayeon/Kurly-App/assets/119835857/63a3ee44-2d8b-49a9-818b-97791d150481)
 
-* Category 내에는 6개의 **채소, 과일, 수산, 정육, 메인요리, 간편식, 양념**list를 만들었다.
+* Category 내에는 6개의 **채소, 과일, 수산, 정육, 메인요리, 간편식, 양념list**를 만들었다.
 * 각 list를 누르면 또 다른 세부적인 list들이 나타나도록 구현했다.
 
 <br>
