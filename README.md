@@ -57,6 +57,47 @@
 * 최종적으로 마지막 list를 누르면 **장바구니 담기** 버튼이 나타나고, 버튼을 누르면 장바구니에 list가 담긴다.
 ------
 ### 3. 장바구니
+```
+export default function Menu() {
+
+  const {menuId} = useParams();
+ 
+  const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart") || "[]"))
+  const [inCart, setInCart] = useState(false);
+
+  // fetching data
+  const menu = DATA.find(menu => menu.menuId == menuId);
+
+  useEffect(() => {
+    cart.forEach(item => {
+      if(item === menuId) {
+        setInCart(true)
+      }
+    })
+  }, [])
+
+  // 장바구니 담기 버튼을 누르면 실행될 함수
+  function addToCart() {
+    const updatedCart = [...cart, menu.name, menu.price]; // 장바구니에 담으면 메뉴이름, 가격이 보이도록 하였다.
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    setInCart(true);
+  }
+
+  return(
+    <>
+      <h1 className="text-center font-bold text-xl pb-2 mt-3 bg-purple-900 text-white pt-1">Category</h1>
+      <h1 className="mt-2 text-lg font-bold text-purple-900">
+        {menu.name}
+        <span> {menu.price}</span>
+      </h1>
+      <button className="text-sm mt-2 px-2 py-1 rounded-full bg-slate-100"
+        onClick={addToCart} disabled={inCart}>
+        장바구니 담기
+      </button>
+    </>
+  )
+```
+
 ![캡처4](https://github.com/cdayeon/Kurly-App/assets/119835857/f7eb441b-f762-43a2-8bd4-51933125eac6)
 <br>
 <img width="443" alt="스크린샷 2023-07-19 오후 11 45 47" src="https://github.com/cdayeon/Kurly-App/assets/119835857/0024302b-e66d-4780-8948-e88f207faba1">
