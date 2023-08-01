@@ -4,11 +4,35 @@
 ### 디플로이한 주소 : https://cdayeon.github.io/Kurly-App
 ------
 ### react 설치
-<img width="738" alt="스크린샷 2023-08-01 오후 3 19 21" src="https://github.com/cdayeon/Kurly-App/assets/119835857/bcda56b3-f1be-4eae-9c43-b027fdfbf56b">
+<img width="738" alt="스크린샷 2023-08-01 오후 3 31 10" src="https://github.com/cdayeon/Kurly-App/assets/119835857/6f2d640a-8e59-450a-ae49-78f5bd9e4007">
 
-* vscode터미널에 npx create-react-app 파일명 을 입력하면 리액트가 설치된다.
+* vscode터미널에 **npx create-react-app 파일명** 을 입력하면 리액트가 설치된다.
 * cd 파일명 을 입력해서 해당 파일의 경로로 이동한다.
-* npm start를 입력하면 react가 실행된다.
+* **npm start**를 입력하면 react가 실행된다.
+------
+### react에 tailwindcss 설치
+<img width="762" alt="스크린샷 2023-08-01 오후 3 36 24" src="https://github.com/cdayeon/Kurly-App/assets/119835857/fdbe16fe-d6e7-4b22-b828-058b04077f53">
+
+* 원래라면 react를 설치한 파일경로에서 npm install -D tailwindcss를 입력하면 tailwindcss가 설치된다.
+* 그러나 필자는 계속해서 **npm audit / npm fund**라는 2개의 에러가 발생해서 설치가 되지 않았다.
+* 이를 해결하기 위해 구글링한 결과, NSP의 데이터베이스를 이용해서 취약점을 점검해주는 기능이 추가되었기 때문에 해당 에러가 발생한다는 점을 발견했다.
+* 따라서, tailwindcss를 설치할 때 **npm install -D tailwindcss --no-audit --no-fund**로 입력하면 에러없이 tailwindcss가 설치된다.
+------
+### tailwindcss 환경설정
+<img width="762" alt="스크린샷 2023-08-01 오후 3 48 51" src="https://github.com/cdayeon/Kurly-App/assets/119835857/e9516a3c-ad1f-4065-8972-d0394612f38c">
+
+* tailwindcss를 설치했다면, 터미널에서 **npc tailwindcss init**을 입력해 **tailwind.config.js** 파일을 생성해준다.
+
+<img width="418" alt="스크린샷 2023-08-01 오후 3 51 33" src="https://github.com/cdayeon/Kurly-App/assets/119835857/0edbb53e-b82c-4610-9489-aed784301aad">
+
+* **tailwind.config.js** 파일 내에 **"./src/**/*.{js,jsx,ts,tsx}"** 를 입력해준다.
+
+<img width="277" alt="스크린샷 2023-08-01 오후 3 53 38" src="https://github.com/cdayeon/Kurly-App/assets/119835857/d4aa232f-137d-4a63-a66e-a4833f539a70">
+
+* index.css 파일 내에서
+* **@tailwind base;**
+* **@tailwind components;**
+* **@tailwind utilities;** 를 입력해주면 tailwindcss의 환경설정이 완료된다.
 ------
 ### 1. Home
 ![kurly_main](https://github.com/cdayeon/Kurly-App/assets/119835857/cd1172ca-31df-45b7-a373-14ea234c9261)
