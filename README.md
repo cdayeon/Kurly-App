@@ -3,6 +3,13 @@
 ### 프로젝트 기간 : 2023.07.03 ~ 2023.07.05
 ### 디플로이한 주소 : https://cdayeon.github.io/Kurly-App
 ------
+### react 설치
+<img width="738" alt="스크린샷 2023-08-01 오후 3 19 21" src="https://github.com/cdayeon/Kurly-App/assets/119835857/bcda56b3-f1be-4eae-9c43-b027fdfbf56b">
+
+* vscode터미널에 npx create-react-app 파일명 을 입력하면 리액트가 설치된다.
+* cd 파일명 을 입력해서 해당 파일의 경로로 이동한다.
+* npm start를 입력하면 react가 실행된다.
+------
 ### 1. Home
 ![kurly_main](https://github.com/cdayeon/Kurly-App/assets/119835857/cd1172ca-31df-45b7-a373-14ea234c9261)
 
