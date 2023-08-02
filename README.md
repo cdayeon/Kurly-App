@@ -25,7 +25,7 @@
 
 <img width="418" alt="스크린샷 2023-08-01 오후 3 51 33" src="https://github.com/cdayeon/Kurly-App/assets/119835857/0edbb53e-b82c-4610-9489-aed784301aad">
 
-* **tailwind.config.js** 파일 내에 **"./src/**/*.{js,jsx,ts,tsx}"** 를 입력해준다.
+* **tailwind.config.js** 파일 내에 ```"./src/**/*.{js,jsx,ts,tsx}"```를 입력해준다.
 
 <img width="277" alt="스크린샷 2023-08-01 오후 3 53 38" src="https://github.com/cdayeon/Kurly-App/assets/119835857/d4aa232f-137d-4a63-a66e-a4833f539a70">
 
