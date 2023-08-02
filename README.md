@@ -1,7 +1,7 @@
 # Market Kurly App
 ### 천다연 개인 프로젝트
 ### 프로젝트 기간 : 2023.07.03 ~ 2023.07.05
-### 사용한 기술 스택 : javaScript, html, css
+### 사용한 기술 스택 : JavaScript, html, css
 ### 디플로이한 주소 : https://cdayeon.github.io/Kurly-App
 ------
 ### react 설치
